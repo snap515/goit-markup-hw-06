@@ -348,6 +348,10 @@ body {
   cursor: pointer;
 }
 
+.modal-content {
+  padding: 40px;
+}
+
 .form-title {
 }
 
@@ -355,18 +359,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding: 40px;
 }
 
-.form-element {
+.form-field {
   display: flex;
   flex-direction: column;
+  outline: tomato 1px solid;
+}
+
+.form-field {
+  margin-top: 12px;
+}
+
+.form-field:not(:first-child) {
+  margin-top: 10px;
+}
+
+.form-label {
+  margin-bottom: 4px;
 }
 
 .form-input {
+  height: 40px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.form-chekbox {
+  display: flex;
 }
