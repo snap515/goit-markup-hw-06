@@ -96,7 +96,12 @@
                 </div>
                 <div class="form-field">
                   <label for="comment" class="form-label">Комментарий</label>
-                  <textarea name="comment" id="comment" cols="30" rows="10">
+                  <textarea
+                    class="form-comment"
+                    name="comment"
+                    id="comment"
+                    placeholder="Введите текст"
+                  >
                   </textarea>
                 </div>
                 <div class="form-checkbox">
@@ -104,12 +109,15 @@
                     type="checkbox"
                     name="conditions"
                     value="conditions submitted"
+                    id="conditions"
                   />
-                  <label for="conditions" class="form-label"
+                  <label for="conditions" class="checkbox-label"
                     >Соглашаюсь с рассылкой и принимаю Условия договора
                   </label>
                 </div>
-                <button>Отправить</button>
+                <div class="button-position">
+                  <button class="submit-btn">Отправить</button>
+                </div>
               </form>
             </div>
           </div>
