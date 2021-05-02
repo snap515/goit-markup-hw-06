@@ -418,6 +418,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.link {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
 .submit-btn {
   width: 200px;
   height: 50px;
