@@ -15,7 +15,7 @@
   --button-background: rgba(245, 244, 250, 1);
   --hero-backdrop: rgba(0, 0, 0, 0.2);
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --transiton-duration-time: 2500ms;
+  --transiton-duration-time: 250ms;
 }
 
 body {
