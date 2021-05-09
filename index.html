@@ -76,6 +76,9 @@
                     name="name"
                     id="name"
                     autofocus
+                    required
+                    minlength="2"
+                    maxlength="15"
                   />
                   <svg class="input-icon" width="18px" height="18px">
                     <use href="./img/icons.svg#input-person"></use>
@@ -83,7 +86,15 @@
                 </div>
                 <div class="form-field">
                   <label for="tel" class="form-label">Телефон</label>
-                  <input class="form-input" type="text" name="tel" id="tel" />
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="tel"
+                    id="tel"
+                    required
+                    minlength="10"
+                    maxlength="10"
+                  />
                   <svg class="input-icon" width="18px" height="18px">
                     <use href="./img/icons.svg#input-phone"></use>
                   </svg>
@@ -95,6 +106,9 @@
                     type="text"
                     name="email"
                     id="email"
+                    required
+                    minlength="2"
+                    maxlength="15"
                   />
                   <svg class="input-icon" width="18px" height="18px">
                     <use href="./img/icons.svg#input-mail"></use>
@@ -117,6 +131,7 @@
                       name="conditions"
                       value="conditions submitted"
                       id="conditions"
+                      required
                     />
                     <svg
                       class="icon-custom-checkbox"
@@ -134,7 +149,7 @@
                   </span>
                 </label>
                 <div class="button-position">
-                  <button class="submit-btn">Отправить</button>
+                  <button class="submit-btn" type="submit">Отправить</button>
                 </div>
               </form>
             </div>
@@ -500,9 +515,10 @@
                 id="footer-form"
                 name="email"
                 placeholder="E-mail"
+                required
               />
               <div class="footer-button-wrapper">
-                <button class="footer-btn footer-button-text">
+                <button type="submit" class="footer-btn footer-button-text">
                   Подписаться
                   <svg class="icon-send" width="24px" height="24px">
                     <use href="./img/icons.svg#icon-send"></use>

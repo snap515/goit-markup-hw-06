@@ -483,6 +483,7 @@ body {
 }
 
 .icon-custom-checkbox {
+  fill: var(--white);
   position: absolute;
   top: 50%;
   left: 50%;
