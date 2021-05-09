@@ -109,23 +109,30 @@
                     id="comment"
                   ></textarea>
                 </div>
-                <div class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    name="conditions"
-                    value="conditions submitted"
-                    id="conditions"
-                  />
-                  <label for="conditions" class="checkbox-label"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <span class="policy-link"
-                      ><a href="/">Условия договора</a></span
+                <label for="conditions" class="checkbox-label">
+                  <span class="check-position-wrapper">
+                    <input
+                      class="custom-checkbox"
+                      type="checkbox"
+                      name="conditions"
+                      value="conditions submitted"
+                      id="conditions"
+                    />
+                    <svg
+                      class="icon-custom-checkbox"
+                      width="16px"
+                      height="15px"
                     >
-                    <svg class="icon-check" width="16px" height="15px">
                       <use href="./img/icons.svg#icon-checked"></use>
                     </svg>
-                  </label>
-                </div>
+                  </span>
+                  <span class="policy-text">
+                    Соглашаюсь с рассылкой и принимаю
+                    <span class="policy-link">
+                      <a href="/">Условия договора</a>
+                    </span>
+                  </span>
+                </label>
                 <div class="button-position">
                   <button class="submit-btn">Отправить</button>
                 </div>
