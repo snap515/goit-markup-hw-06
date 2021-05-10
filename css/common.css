@@ -459,6 +459,11 @@ body {
   border-radius: 1px;
 }
 
+.custom-checkbox:focus {
+  border: 2px solid var(--blue);
+  outline: 2px solid transparent;
+}
+
 .policy-text {
   color: var(--secondary);
   font-weight: 400;
